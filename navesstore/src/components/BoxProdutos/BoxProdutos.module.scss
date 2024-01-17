@@ -1,0 +1,13 @@
+.boxProdutos{
+    display: grid;
+    grid-template-columns:  300px 300px 300px 300px;
+    gap: 5em;
+    padding-left: 25em;
+    padding-top: 3em;
+
+    &__item{
+        background-color: #7C7C7C;
+        width: 328px;
+        height: 355px;
+    }
+}
