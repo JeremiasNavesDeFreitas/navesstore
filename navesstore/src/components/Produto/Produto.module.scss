@@ -1,0 +1,54 @@
+@import '../../variaveis.module';
+
+.boxItem {
+    display: flex;
+    gap: 5em;
+    padding: 10em 0;
+    background-color: #7C7C7C;
+
+    &__conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .boxItem__info {
+            display: flex;
+            align-items: center;
+            gap: 6em;
+        }
+
+        .boxItem__titulo {
+            font-family: $header-font;
+            font-weight: 600;
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+
+        .boxItem__botao {
+            border-radius: 3px;
+            border: none;
+            background-color: $button-box-color;
+            font-family: $header-font;
+            color: white;
+            font-size: 21px;
+            font-weight: 600;
+            margin-left: 10px;
+            align-self: baseline; 
+            height: 2em;
+            width: 6em;
+            margin-top: 2em;
+            cursor: pointer;
+        }
+
+        .boxItem__botao:hover{
+            background-color: #027e2b;
+        }
+    }
+}
+
+.boxItem__texto {
+    font-family: $header-font;
+    font-weight: normal;
+    font-size: 21px;
+    margin-top: -25px;
+}

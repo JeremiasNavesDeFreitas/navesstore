@@ -1,13 +1,32 @@
+@import '../../variaveis.module';
+
 .boxProdutos{
     display: grid;
     grid-template-columns:  300px 300px 300px 300px;
     gap: 5em;
     padding-left: 25em;
-    padding-top: 3em;
+    padding-top: 2em;
+}
 
-    &__item{
-        background-color: #7C7C7C;
-        width: 328px;
-        height: 355px;
+.boxBotoes{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    justify-content: space-around;
+    gap: 44em;
+
+    &__botao{
+        font-family: $header-font;
+        font-size: 20px;
+        padding-right: 3em;
+        height: 2em;
+        border-width: 1px;
+        margin-left: 16.9em;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    &__botao:hover{
+        background-color: #dadada;
     }
 }
